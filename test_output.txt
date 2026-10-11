@@ -1,0 +1,7 @@
+PASSED  test_gae_lambda1_equals_mc_advantage
+PASSED  test_gae_lambda0_is_td_error
+PASSED  test_clip_kills_gradient_outside_trust_zone
+PASSED  test_clip_keeps_gradient_when_update_hurts
+PASSED  test_no_clip_matches_plain_surrogate
+
+5 passed
