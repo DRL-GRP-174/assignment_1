@@ -1,0 +1,16 @@
+
+Experiment A (default)    avg-over-training   final-20%
+  no clipping     394.2 ±   2.8       490.2 ±   8.1
+  ε = 0.1         320.5 ±  12.1       414.5 ±  32.0
+  ε = 0.2         330.2 ±  20.9       391.8 ± 107.3
+  ε = 0.3         351.0 ±   8.8       465.0 ±   9.1
+
+Experiment B (aggressive)
+  no clipping     152.1 ±  90.5       196.5 ± 132.8
+  ε = 0.2         434.9 ±   9.4       486.2 ±  15.4
+  [default] no clipping  mean approx KL 0.0022 | ratios outside ±0.2: 0.020 | first step avg>=475: [55808, 57856, 43520]
+  [default] ε = 0.1      mean approx KL 0.0003 | ratios outside ±0.2: 0.000 | first step avg>=475: [129536, 148480, None]
+  [default] ε = 0.2      mean approx KL 0.0007 | ratios outside ±0.2: 0.006 | first step avg>=475: [None, 126976, 98816]
+  [default] ε = 0.3      mean approx KL 0.0009 | ratios outside ±0.2: 0.003 | first step avg>=475: [121856, 64512, 102912]
+  [aggressive] no clipping  mean approx KL 0.3161 | ratios outside ±0.2: 0.142 | first step avg>=475: [108032, None, None]
+  [aggressive] ε = 0.2      mean approx KL 0.0032 | ratios outside ±0.2: 0.036 | first step avg>=475: [20480, 20480, 56320]
